@@ -1,13 +1,16 @@
 import React, {useEffect} from 'react';
 import {View, Text, StyleSheet, ScrollView} from 'react-native';
 import Header from '../../components/common/Header';
-import AppConfig from '../../services/config';
 import Colors from '../../constants/Colors';
 
 const HomeScreen = () => {
-  useEffect(() => {
-    console.log('App Config:', AppConfig);
-  }, []);
+//   useEffect(() => {
+//   console.log('HomeScreen mounted');
+//   const id = setTimeout(() => { debugger; }, 600); 
+//   return () => clearTimeout(id);
+// }, []);
+
+
 
   return (
     <View style={styles.container}>
