@@ -1,0 +1,13 @@
+node_modules/
+ios/
+android/
+coverage/
+__tests__/
+.expo/
+dist/
+.expo-shared/
+.env
+.env.local
+.env.development
+.env.production
+.env.staging
